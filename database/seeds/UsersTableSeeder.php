@@ -42,6 +42,7 @@ class UsersTableSeeder extends Seeder
         $user->name = 'XiaoYu Hu';
         $user->email = '498797574@qq.com';
         $user->avatar = 'https://cdn.learnku.com/uploads/images/201710/14/1/ZqM7iaP4CR.png';
+        $user->password = '$2y$10$dkJsnVr62x.1ajMqDACLgOUAouUWmmqM/6/f5.vl2JClR0KAhIivu';
         $user->save();
     }
 }
