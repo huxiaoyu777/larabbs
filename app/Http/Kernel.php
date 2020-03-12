@@ -65,6 +65,7 @@ class Kernel extends HttpKernel
             // 请见：https://learnku.com/docs/laravel/5.7/middleware#为路由分配中间件
             'throttle:60,1',
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
+            \App\Http\Middleware\AcceptHeader::class,
         ],
     ];
 
