@@ -25,6 +25,9 @@ Route::prefix('v1')->namespace('Api')
         Route::post('verificationCodes', 'VerificationCodesController@store')
             ->name('verificationCodes.store');
         // 用户注册
-        Route::post('users', 'usersController@store')
+        Route::post('users', 'UsersController@store')
             ->name('users.store');
+        // 图片验证码
+        Route::post('captchas', 'CaptchasController@store')
+            ->name('captchas.store');
     });
