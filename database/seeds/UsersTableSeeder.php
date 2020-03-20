@@ -42,7 +42,7 @@ class UsersTableSeeder extends Seeder
         $user->name = 'HuXiaoYu';
         $user->email = '498797574@qq.com';
         $user->avatar = 'https://cdn.learnku.com/uploads/images/201710/14/1/ZqM7iaP4CR.png';
-        $user->password = '$2y$10$dkJsnVr62x.1ajMqDACLgOUAouUWmmqM/6/f5.vl2JClR0KAhIivu';
+        $user->password = '$2y$10$t4/.puO8raY9iuNzyDC33uVkHP86fzloQrNMeCqZVL0YOTjUYC7W6';
         $user->save();
         // 初始化用户角色，将 1 号用户指派为『站长』
         $user->assignRole('Founder');
@@ -52,7 +52,7 @@ class UsersTableSeeder extends Seeder
         $user->name = 'XiaoHui';
         $user->email = '994051787@qq.com';
         $user->avatar = 'https://cdn.learnku.com/uploads/images/201710/14/1/ZqM7iaP4CR.png';
-        $user->password = '$2y$10$dkJsnVr62x.1ajMqDACLgOUAouUWmmqM/6/f5.vl2JClR0KAhIivu';
+        $user->password = '$2y$10$t4/.puO8raY9iuNzyDC33uVkHP86fzloQrNMeCqZVL0YOTjUYC7W6';
         $user->save();
         $user->assignRole('Maintainer');
     }
