@@ -46,6 +46,7 @@ class GenerateToken extends Command
             return $this->error('用户不存在');
         }
 
+
         // 一年后过期
         $ttl = 365 * 24 * 60;
         $this->info(auth('api')->setTTL($ttl)->login($user));
